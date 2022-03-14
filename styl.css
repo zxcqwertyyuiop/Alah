@@ -1,0 +1,51 @@
+.container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/*Face*/
+h1 {
+  height: 40px;
+  width: 200px;
+  color: #f09d3e;
+  display: block;
+  text-align: center;
+  font-size: 34px;
+  font-family: "Montseratt", sans-serif;
+  margin: 10px auto;
+  transition: color, font-size .1s linear;
+  font-weight: 500;
+}
+h1:hover {
+  color: #ff9f30;
+  cursor: pointer;
+  font-size: 35.5px;
+  font-weight: 510;
+}
+
+.ezik {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 0 10px black;
+  margin: 10px 20px;
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  font-family: "Montseratt", sans-serif;
+  font-size: 20px;
+}
+.history {
+  display: flex;
+}
+.ach {
+  margin: 0 50px;
+  font-family: "Montseratt", sans-serif;
+  font-size: 20px;
+
+}
